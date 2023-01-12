@@ -2,13 +2,10 @@
     margin-top: 400px;
     text-align: center;
     border-radius: 20px;
-    padding: 20px;
-    width: 500px;
-    margin-left: 690px;
 }
 .container {
-    width: 500px;
-    height: auto;
+   text-align: center;
+
 }
 h1[id="contador"]{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

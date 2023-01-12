@@ -1,4 +1,4 @@
-var valor=0;
+var valor = 0;
 
 //função de incrmenta +1 no contador
 function incrementa() {
@@ -19,3 +19,12 @@ function reset() {
     document.getElementById("valor").innerHTML = valor;
 }
     
+if (valor > 0) {
+   valor.style.color = "green";
+}
+if (valor < 0) {
+    valor.style.color = "red";
+ }
+ if (valor == 0) {
+    valor.style.color = "dark";
+ }
