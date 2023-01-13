@@ -4,7 +4,6 @@ var valor = 0;
 function incrementa() {
     valor ++;
     document.getElementById("valor").innerHTML = valor;
-
 }
 
 //função de decrementar -1 no contador
@@ -18,13 +17,3 @@ function reset() {
     valor=0;
     document.getElementById("valor").innerHTML = valor;
 }
-    
-if (valor > 0) {
-   valor.style.color = "green";
-}
-if (valor < 0) {
-    valor.style.color = "red";
- }
- if (valor == 0) {
-    valor.style.color = "dark";
- }
